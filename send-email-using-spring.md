@@ -34,8 +34,7 @@
 ### step 1 ###
 在spring的配置文件中声明JavaMailSenderImpl，并配置其有关的属性。
 
-``` xml applicationContext.xml
-
+``` xml 
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
@@ -51,7 +50,7 @@
 		<property name="host" value="smtp.qq.com" />
 		<!-- <property name="port" value="465" /> -->
 		<property name="username" value="267237033@qq.com" />
-		<property name="password" value="ysw6117908128" />
+		<property name="password" value="########" />
 		<property name="javaMailProperties">
 			<props>
 				<prop key="mail.debug">true</prop>
